@@ -6,7 +6,7 @@ import DestinationCard from "./components/DestinationCard";
 import SearchBar from "./components/SearchBar";
 import FilterBar from "./components/FilterBar";
 import Footer from "./components/Footer";
-import Favorites from "./pages/favorites";
+import Favorites from "./pages/Favorites";
 import DestinationDetail from "./pages/DestinationDetail";
 import Contact from "./pages/Contact";
 import "./components/Filters.css";
