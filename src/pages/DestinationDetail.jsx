@@ -1,11 +1,14 @@
 import { useParams, useNavigate, Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./DestinationDetail.css";
 
 function DestinationDetail({ destinations }) {
   const { id } = useParams();
   const navigate = useNavigate();
   const [isLeaving, setIsLeaving] = useState(false);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const destination = destinations.find(
     (d) => d.id === Number(id)
