@@ -46,7 +46,7 @@ export const destinations = [
     budget: "€€€",
     image: "https://images.unsplash.com/photo-1604999333679-b86d54738315?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QmFsaXxlbnwwfHwwfHx8MA%3D%3D",
     description: "Bali is a tropical paradise known for its beaches, rice terraces, and spiritual atmosphere.",
-    price: 900,
+    price: 1900,
     itinerary: [
       "Relax in Seminyak and enjoy sunset beaches.",
       "Visit Ubud, rice terraces, and Monkey Forest.",
@@ -103,7 +103,7 @@ export const destinations = [
     budget: "€€€",
     image: "https://images.unsplash.com/photo-1758808102040-40647801ca39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNxaXNzJTIwYWxwc3xlbnwwfHwwfHx8MA%3D%3D",
     description: "The Swiss Alps are perfect for nature lovers, offering breathtaking mountains and outdoor adventures.",
-    price: 1400,
+    price: 1700,
     itinerary: [
       "Explore mountain villages.",
       "Hiking or skiing.",
@@ -160,7 +160,7 @@ export const destinations = [
     budget: "€",
     image: "https://media.istockphoto.com/id/499147334/it/foto/cattedrale-della-sagrada-familia-a-barcellona.webp?a=1&b=1&s=612x612&w=0&k=20&c=slrEXuOmuIwKVfGNlp4AGrzkXEe1cyPoK9em3NSwM7g=",
     description: "Barcelona combines beach life, culture, and unique architecture.",
-    price: 1000,
+    price: 800,
     itinerary: [
       "Sagrada Familia and city center.",
       "Park Güell and Gothic Quarter.",
@@ -179,7 +179,7 @@ export const destinations = [
     budget: "€€€",
     image: "https://images.unsplash.com/photo-1518156959312-07a5380c1261?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGljZWxhbmR8ZW58MHx8MHx8fDA%3D",
     description: "Iceland offers dramatic landscapes, waterfalls, and the chance to see the northern lights.",
-    price: 1600,
+    price: 1800,
     itinerary: [
       "Golden Circle tour.",
       "Waterfalls and black sand beaches.",
@@ -198,7 +198,7 @@ export const destinations = [
     budget: "€€€",
     image: "https://media.istockphoto.com/id/542826216/it/foto/lama-al-primo-semaforo-a-machu-picchu-per%C3%B9.webp?a=1&b=1&s=612x612&w=0&k=20&c=ODrkSBifEsxVTAqKVE3cECsAbKg-LFaJcbMsT0LGQ1g=",
     description: "Peru is rich in history and culture, home to Machu Picchu and breathtaking landscapes.",
-    price: 1400,
+    price: 1900,
     itinerary: [
       "Explore Cusco.",
       "Sacred Valley.",
@@ -217,7 +217,7 @@ export const destinations = [
     budget: "€€",
     image: "https://plus.unsplash.com/premium_photo-1661936361131-c421746dcd0d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhfGVufDB8fDB8fHww",
     description: "Kenya is a top safari destination with incredible wildlife and natural beauty.",
-    price: 1700,
+    price: 1200,
     itinerary: [
       "Nairobi and local culture.",
       "Safari in Maasai Mara.",
