@@ -24,8 +24,7 @@ Live demo: https://dream-trips-planner.vercel.app
 
 ## 📸 Screenshots
 
-<img width="940" height="428" alt="Dream Trips Planner" src="https://github.com/user-attachments/assets/0fea64cf-377d-4276-9f27-779426282d34" />
-
+<img width="939" height="455" alt="Dream Trips Planner" src="https://github.com/user-attachments/assets/066444d1-c286-4171-abab-6e0e1736fd57" />
 
 ## 📦 Installation
 
