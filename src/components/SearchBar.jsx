@@ -1,12 +1,17 @@
+import "./SearchBar.css";
+
 function SearchBar({ searchTerm, onSearchChange }) {
   return (
-    <input
-      className="search-input"
-      type="text"
-      placeholder="Search destinations..."
-      value={searchTerm}
-      onChange={onSearchChange}
-    />
+    <div className="search-wrapper">
+      <input
+        className="search-input"
+        type="text"
+        placeholder="Search destinations..."
+        value={searchTerm}
+        onChange={onSearchChange}
+      />
+      <span className="search-icon">🔍</span>
+    </div>
   );
 }
 

@@ -50,7 +50,7 @@ body::after {
 .app {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 24px 60px;
+  padding: 10px 20px;
 }
 
 .app-header {
@@ -78,42 +78,13 @@ body::after {
   color: #64748b;
 }
 
-
 /* =========================
-   3. NAVIGATION
-========================= */
-
-.nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 20px;
-}
-
-.nav a {
-  text-decoration: none;
-  color: #64748b;
-  font-weight: 600;
-}
-
-.nav a.active {
-  color: #2563eb;
-  border-bottom: 2px solid #2563eb;
-}
-
-.nav a:hover {
-  text-decoration: none;
-  color: #2563eb;
-}
-
-
-/* =========================
-   4. HOME CONTENT
+   3. HOME CONTENT
 ========================= */
 
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
@@ -127,7 +98,7 @@ body::after {
 }
 
 /* =========================
-   5. BADGES & ITINERARY
+   4. BADGES & ITINERARY
 ========================= */
 
 .badges {
@@ -181,8 +152,15 @@ body::after {
 
 
 /* =========================
-   6. RESPONSIVE
+   5. RESPONSIVE
 ========================= */
+
+@media (max-width: 992px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
 
 @media (max-width: 768px) {
   .app {
