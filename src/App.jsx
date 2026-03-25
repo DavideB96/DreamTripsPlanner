@@ -10,6 +10,7 @@ import Favorites from "./pages/Favorites";
 import DestinationDetail from "./pages/DestinationDetail";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
 import "./components/Filters.css";
 
 function App() {
@@ -75,7 +76,7 @@ function App() {
   return (
     <>
       <Navbar />
-
+      <ScrollToTop />
       <div className="app">
         {isHome && (
           <div className="app-header">

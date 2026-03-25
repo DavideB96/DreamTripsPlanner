@@ -1,11 +1,27 @@
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./Navbar.css";
 
 function Navbar() {
     const [open, setOpen] = useState(false);
+    const menuRef = useRef();
+
+    useEffect(() => {
+        function handleClickOutside(e) {
+            if (menuRef.current && !menuRef.current.contains(e.target)) {
+                setOpen(false);
+            }
+        }
+
+        document.addEventListener("click", handleClickOutside);
+
+        return () => {
+            document.removeEventListener("click", handleClickOutside);
+        };
+    }, []);
+
     return (
-        <nav className="navbar">
+        <nav className="navbar" ref={menuRef}>
             <div className="navbar-container">
 
                 <div className="logo">
@@ -28,9 +44,9 @@ function Navbar() {
                 </div>
 
                 <div className={`nav-links ${open ? "open" : ""}`}>
-                    <NavLink to="/">Home</NavLink>
-                    <NavLink to="/favorites">Favorites</NavLink>
-                    <NavLink to="/contact">Contact</NavLink>
+                    <NavLink to="/" onClick={() => setOpen(false)}>Home</NavLink>
+                    <NavLink to="/favorites" onClick={() => setOpen(false)}>Favorites</NavLink>
+                    <NavLink to="/contact" onClick={() => setOpen(false)}>Contact</NavLink>
                 </div>
                 <button
                     className={`menu-toggle ${open ? "active" : ""}`}
